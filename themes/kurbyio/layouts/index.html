@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <h1>Hello World</h1>
+  <p>This is a test</p>
+  {{$file := urls.Parse "https://raw.githubusercontent.com/Kurbyio/docs/1.0/introduction.md"}}
+  {{ ref "https://raw.githubusercontent.com/Kurbyio/docs/1.0/introduction.md" }}
+{{ end }}

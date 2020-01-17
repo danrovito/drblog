@@ -1,0 +1,69 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Dan Rovito"
+theme = "hugo-ink"
+paginate = 5
+
+copyright = "©2020 Dan Rovito"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-123-45"
+disqusShortname = ""
+
+[params]
+	subtitle = "I create amazing websites and applications"
+
+	# Optional 64x64 avatar image.
+	avatar = "/images/me.png"
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+#[[menu.main]]
+#name = "All posts"
+#url = "/posts"
+#weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+#[[menu.main]]
+#name = "Tags"
+#url = "/tags"
+#weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/danrovito"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/danrovito"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
