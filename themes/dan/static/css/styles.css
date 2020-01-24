@@ -142,7 +142,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-header{
-    background: url('/images/dr.svg') no-repeat top left;
+    background: url('/images/dr.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 250px;
 }
 
@@ -162,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-text{
-    padding-top: 160px;
+    padding: 160px 0;
 }
 
 @media (max-width: 992px){
