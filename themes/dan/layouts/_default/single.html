@@ -3,22 +3,11 @@
 	<div class="row justify-content-center">
 		<div class="col-md-8">
 			<h2><a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a></h2>
-			<div class="date">
-				<span>Posted On</span>
-				<span class="rest">
-					{{ if $.Site.Data.month }}
-						{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}
-					{{ else }}
-						{{ dateFormat "January 1, 2006" .Date }}
-					{{ end }}
-				</span>
-			</div>
+			
 			<div class="mt-4">
 				{{ .Content }}
 			</div>  			
 		</div>
 	</div>
 </div>
-	
-
 {{ end }}
