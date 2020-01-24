@@ -7,5 +7,12 @@
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
+
+        <script>
+        	$('#clickViewAll').click(function(){
+        		$('#allPosts').show();
+        		$('#viewAllPosts').hide().removeClass('mt-5');
+        	})
+        </script>
     </body>
 </html>
