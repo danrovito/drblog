@@ -8,6 +8,15 @@ body {
     padding-top: 69px;
 }
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
 .header {
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.1);
     background: #fff;
@@ -124,8 +133,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-brand, .btn-brand:hover{
     color: #fff;
-    background-color: #1f3a93;
-    border-color: #1f3a93;
+    background-color: #121E8C;
+    border-color: #121E8C;
 }
 
 .section-title {
@@ -171,4 +180,12 @@ h1, h2, h3, h4, h5, h6 {
     .intro-text{
         padding-top: 60px;
     }
+}
+
+
+#footer{
+    background-image: linear-gradient(to bottom, white, white 50%, #121E8C 50%, #121E8C);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 250px;
 }

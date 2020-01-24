@@ -1,0 +1,32 @@
+<section id="footer" >
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-10">
+				<div class="py-5">
+					<div class="card shadow rounded bg-white">
+						<div class="card-body text-center">
+							<h3>Subscribe</h3>
+							<p>For more great content that doesn't make it to the blog, <br/>subscribe to my newsletter.</p>
+							<div>
+								<form action="" method="" class="form-inline justify-content-center pt-3">
+									<div class="form-group">
+						                <label class="sr-only" for="EMAIL">Email Address</label>
+						                <div class="input-group">
+						                    <input type="email" name="EMAIL" id="submail" class="form-control" placeholder="Email Address">
+						                    <div class="input-group-append">
+						                        <button type="submit" class="btn btn-brand">Sign Up</button>
+						                      </div>
+						                </div><br>
+						            </div>
+								</form>
+							</div>							
+						</div>
+					</div>
+					<div class="copyright mt-5 text-white text-center">
+						{{ replace .Site.Copyright "{year}" now.Year | safeHTML }} <span class="px-2">|</span> <a href="https://twitter.com/danrovito" class="text-white">@danrovito</a> <span class="px-2">|</span> <a href="{{ .Site.BaseURL }}blog/index.xml" class="text-white">RSS</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

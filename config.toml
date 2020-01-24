@@ -2,6 +2,7 @@ baseURL = ""
 languageCode = "en-us"
 title = "Dan Rovito"
 theme = "dan"
+copyright = "&copy; {year} Dan Rovito"
 relativeURLs = true
 [blackfriday]
  smartypants = false
