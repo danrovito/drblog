@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="container mt-5">
+	<div class="row justify-content-center">
+		<div class="col-md-8 ">
+			<div class="">
+				<h3 class="text-muted">Articles</h3>
+				{{ range .Pages.ByPublishDate.Reverse }}
+					<div class="mt-5">
+						<div>		
+							<div class="date">
+								<span class="day">{{ dateFormat "02" .Date }}</span>
+								<span class="rest">
+									{{ if $.Site.Data.month }}
+										{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}
+									{{ else }}
+										{{ dateFormat "Jan 2006" .Date }}
+									{{ end }}
+							</span>
+								<span>
+									{{ with .Params.tags }}<span class="px-2">|</span>{{ delimit . ", "}}{{ end }}
+								</span>
+							</div>				
+						  <h2><a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a></h2>
+						  {{ if gt (len .Summary) 200 }}
+						  	{{ slicestr .Summary 0 200 | markdownify }}...
+						  {{ end }}
+						</div>
+						
+					</div>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+	
+</div>
+{{ end }}
