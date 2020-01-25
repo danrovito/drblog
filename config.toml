@@ -1,9 +1,10 @@
 baseURL = ""
 languageCode = "en-us"
-title = "Dan Rovito"
+title = "DanRovito.com"
 theme = "dan"
 copyright = "&copy; {year} Dan Rovito"
 relativeURLs = true
+pluralizelisttitles = false
 [blackfriday]
  smartypants = false
 
