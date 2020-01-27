@@ -15,3 +15,13 @@ pluralizelisttitles = false
     name = "Blog"
     weight = 20
     url = "/blog/"
+
+[[menu.main]]
+    name = "About"
+    weight = 200
+    url = "/about/"
+
+[[menu.main]]
+    name = "Projects"
+    weight = 200
+    url = "/projects/"

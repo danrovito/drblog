@@ -6,6 +6,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #5d6778;
     padding-top: 69px;
+    
+}
+
+#content{
+    line-height: 1.7;
 }
 
 html, body {
