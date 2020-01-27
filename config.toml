@@ -23,5 +23,10 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name = "Projects"
-    weight = 200
+    weight = 201
     url = "/projects/"
+
+[[menu.main]]
+    name = "Uses"
+    weight = 202
+    url = "/uses/"

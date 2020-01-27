@@ -10,4 +10,8 @@ I'm Dan Rovito, a full stack web developer from Cincinnati, OH.  I work with PHP
 
 #### Even More Info
 
-I enjoy making products. I am passionate about making products that make my life and the lives of other developers easier.
+I enjoy making products. I am passionate about making products that make my life and the lives of other developers easier.  
+
+I love working in different technology stacks. I use a lot of software, such as: PHP, Laravel, C#, .Net Core, SQL, Docker, Ubuntu, Html, CSS, etc.  I'm very passionate about learning and progressing in these languages and applications.  Most all of my side projects are created using PHP and Laravel.  Professionally, I work in .Net/C# on a daily basis.
+
+In my free time, I enjoy spending time with my family.  We enjoy video games, LEGOs, movies, and anything else that brings us joy!
