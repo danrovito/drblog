@@ -8,6 +8,9 @@ I am actively working on [Runleaf.com](https://runleaf.com), a tool for managing
 
 <hr>
 
-[![runleaf](https://placehold.it/1920x1080 "Runleaf")](https://runleaf.com)
+[![runleaf](/images/runleaf.png "Runleaf")](https://runleaf.com)
 
 *Runleaf.com*
+
+<hr>
+
