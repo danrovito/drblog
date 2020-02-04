@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-text{
-    padding: 160px 0;
+    padding: 100px 0;
 }
 
 @media (max-width: 992px){
