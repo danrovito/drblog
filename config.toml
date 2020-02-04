@@ -5,6 +5,7 @@ theme = "dan"
 copyright = "&copy; {year} Dan Rovito"
 relativeURLs = true
 pluralizelisttitles = false
+canonifyURLs = true
 [blackfriday]
  smartypants = false
 

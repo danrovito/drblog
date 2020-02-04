@@ -13,8 +13,11 @@
 					{{ end }}
 				</span>
 			</div>
-			<div class="mt-4">
+			<div class="mt-4 article">
 				{{ .Content }}
+			</div>
+			<div class="my-5">
+				{{- partial "related.html" . -}}
 			</div>  			
 		</div>
 	</div>
