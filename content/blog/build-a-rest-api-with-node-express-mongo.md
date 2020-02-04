@@ -5,6 +5,7 @@ date: 2020-02-04T08:57:09-05:00
 draft: false
 tags: ["Development", "Node"]
 keywords: ["nodejs", "api", "javascript"]
+timage: ""
 ---
 
 Building a Rest API with Node.js is a very exciting way to consume data.  In this tutorial we will combine a few packages from npm as well as write some structured code to tell our API what to do.  At the end of the tutorial, we will have a fully functional API that reads, writes, and updates to our MongoDB database.
