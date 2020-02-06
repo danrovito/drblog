@@ -6,6 +6,8 @@ copyright = "&copy; {year} Dan Rovito"
 relativeURLs = true
 pluralizelisttitles = false
 canonifyURLs = true
+[markup.goldmark.renderer]
+ unsafe= true
 [blackfriday]
  smartypants = false
 
