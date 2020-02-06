@@ -1,3 +1,52 @@
 {{ define "main" }}
-	{{ .Content }}
+	<section class="home-header">
+	<div class="container">
+		<div class="row intro-text">
+			<div class="col-md-8 col-sm-12">
+				<div>
+					<h1 class="text-white">Hi, I'm Dan Rovito, <br/>Developer and Web Artisan focusing on Laravel and PHP development.</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="py-5">
+					<h3 class="mb-3">Recent Posts</h3>
+					<div class="row">						
+					{{ with .Site.GetPage "section" "blog" }}
+						{{ range first 3 .Pages.ByPublishDate.Reverse }}
+							<div class="col-md-4">
+								<div class="card shadow rounded bg-white">
+									<img src="{{ .Params.timage }}" class="card-img-top" alt="...">
+									<div class="card-body">		
+										<div class="date">
+											<!-- <span class="day">{{ .Date.Month }} {{ dateFormat "02" .Date }}, {{ .Date.Year }}</span> -->
+											<span class="rest">
+												{{ .Date.Month }} {{ dateFormat "02" .Date }}, {{ .Date.Year }}
+											</span>
+											<!-- <span>
+												{{ with .Params.tags }}<span class="px-2">|</span>{{ delimit . ", "}}{{ end }}
+											</span> -->
+										</div>				
+									  <h5 class="card-title"><a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a></h5>
+									  {{ if gt (len .Summary) 100 }}
+									  	<p class="card-text">{{ slicestr .Summary 0 100 | markdownify }}...<p>
+									  {{ end }}
+									</div>
+									
+								</div>
+							</div>
+						{{ end }}
+					{{ end }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 {{ end }}
