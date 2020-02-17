@@ -21,7 +21,9 @@
 						{{ range first 3 .Pages.ByPublishDate.Reverse }}
 							<div class="col-md-4">
 								<div class="card shadow rounded bg-white">
-									<img src="{{ .Params.timage }}" class="card-img-top" alt="...">
+									<a href="{{ .RelPermalink }}">
+										<img src="{{ .Params.timage }}" class="card-img-top" alt="...">
+									</a>
 									<div class="card-body">		
 										<div class="date">
 											<!-- <span class="day">{{ .Date.Month }} {{ dateFormat "02" .Date }}, {{ .Date.Year }}</span> -->
