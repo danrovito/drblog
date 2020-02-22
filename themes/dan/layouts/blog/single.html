@@ -2,7 +2,7 @@
 <div class="container mt-5">
 	<div class="row justify-content-center">
 		<div class="col-md-8">
-			<h2><a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a></h2>
+			<h2>{{ .Title }}</h2>
 			<div class="date">
 				<span>Posted On</span>
 				<span class="rest">
@@ -18,7 +18,23 @@
 			</div>
 			<div class="my-5">
 				{{- partial "related.html" . -}}
-			</div>  		
+			</div>  
+			<div class="author my-5">
+				<div class="card border-right-0 border-left-0">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-md-2 col-sm-12">
+								<img src="https://avatars.io/twitter/danrovito" class="mt-2 rounded-circle" width="90">
+							</div>
+							<div class="col-md-10 col-sm-12">
+								<h4 class="pt-1 mb-0">Dan Rovito</h4>
+								<small class="text-muted">Software Developer</small>
+								<p>Hello there! I am a software developer based in Cincinnati, OH. I'm currently learning Flutter. I'd love to connect with you. Reach out on <a href="https://twitter.com/danrovito">Twitter</a>.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
 			<div class="my-5">
 				<hr>
 				<div id="disqus_thread"></div>

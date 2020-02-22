@@ -202,3 +202,11 @@ h1, h2, h3, h4, h5, h6 {
 pre{
     margin: 1.5rem 0;
 }
+
+.img-border{
+    border: 1px solid #ccc;
+}
+
+.author p{
+    font-size: 0.9rem;
+}
