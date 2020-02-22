@@ -5,7 +5,7 @@ draft: false
 description: "Here is an easy way to block your sites from search engines when using Hugo.  Easily blog search engines by using environment variables."
 tags: ["Hugo"]
 keywords: ["hugo", "static", "netlify", "robots.txt"]
-timage: "/images/robots-image.jpg"
+timage: "images/robots-image.jpg"
 identifier: 23add932-b240-4c32-80f4-3d179405ab10
 ---
 

@@ -1,4 +1,4 @@
-baseURL = "https://staging.danrovito.com"
+baseURL = ""
 languageCode = "en-us"
 title = "DanRovito.com"
 theme = "dan"
