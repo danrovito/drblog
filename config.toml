@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://staging.danrovito.com"
 languageCode = "en-us"
 title = "DanRovito.com"
 theme = "dan"
