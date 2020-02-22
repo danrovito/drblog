@@ -17,7 +17,6 @@
 				<div class="py-5">
 					<h3 class="mb-3">Recent Posts</h3>
 					<div class="row">				
-						{{ getenv "APPENV" }}		
 					{{ with .Site.GetPage "section" "blog" }}
 						{{ range first 3 .Pages.ByPublishDate.Reverse }}
 							<div class="col-md-4">
