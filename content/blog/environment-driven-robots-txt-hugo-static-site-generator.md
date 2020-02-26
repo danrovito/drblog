@@ -7,6 +7,7 @@ tags: ["Hugo"]
 keywords: ["hugo", "static", "netlify", "robots.txt"]
 timage: "/images/robots-image.jpg"
 identifier: 23add932-b240-4c32-80f4-3d179405ab10
+comments: open
 ---
 
 Sometimes when you deploy a project you may have to block search engines.  Maybe it's a development site, maybe its not ready, or maybe you just don't want search engines to access your site.  
