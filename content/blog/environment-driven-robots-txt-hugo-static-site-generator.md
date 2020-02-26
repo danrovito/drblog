@@ -1,5 +1,5 @@
 ---
-title: "Environment Driven Robots Txt Hugo Static Site Generator"
+title: "Environment Driven Robots.txt for Hugo Static Site Generator"
 date: 2020-02-21T23:23:04-05:00
 draft: false
 description: "Here is an easy way to block your sites from search engines when using Hugo.  Easily blog search engines by using environment variables."
