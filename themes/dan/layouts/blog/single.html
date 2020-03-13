@@ -6,11 +6,7 @@
 			<div class="date">
 				<span>Posted On</span>
 				<span class="rest">
-					{{ if $.Site.Data.month }}
-						{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}
-					{{ else }}
-						{{ dateFormat "January 1, 2006" .Date }}
-					{{ end }}
+					{{ .Date.Month }} {{ dateFormat "02" .Date }}, {{ .Date.Year }}
 				</span>
 			</div>
 			<div class="mt-4 article">
