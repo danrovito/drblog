@@ -17,13 +17,13 @@
 	<meta name="twitter:creator" content="@DanRovito">
 	<meta name="twitter:title" content="Dan Rovito">
 	<meta name="twitter:description" content="Developer and Entrepreneur of the web.">
-	<meta name="twitter:image" content="{{ htmlUnescape .Params.timage | safeHTML  }}">
+	<meta name="twitter:image" content="{{.Site.BaseURL}}{{ htmlUnescape .Params.timage | safeHTML  }}">
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/monokai.min.css">
-	<link rel="stylesheet" href="/css/styles.css"/>
+	<link rel="stylesheet" href="{{.Site.BaseURL}}/css/styles.css"/>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>

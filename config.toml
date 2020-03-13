@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = ""
 languageCode = "en-us"
 title = "DanRovito.com"
 theme = "dan"
@@ -6,6 +6,7 @@ copyright = "&copy; {year} Dan Rovito"
 relativeURLs = true
 pluralizelisttitles = false
 canonifyURLs = true
+enableRobotsTXT = true
 [markup.goldmark.renderer]
  unsafe= true
 [blackfriday]
