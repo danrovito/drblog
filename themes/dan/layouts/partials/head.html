@@ -16,7 +16,7 @@
 	<meta name="twitter:site" content="@danrovito">
 	<meta name="twitter:creator" content="@DanRovito">
 	<meta name="twitter:title" content="Dan Rovito">
-	<meta name="twitter:description" content="Developer and Entrepreneur of the web.">
+	<meta name="twitter:description" content="{{ htmlUnescape .Params.description | safeHTML  }}">
 	<meta name="twitter:image" content="{{.Site.BaseURL}}{{ htmlUnescape .Params.timage | safeHTML  }}">
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
