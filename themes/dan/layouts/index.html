@@ -20,7 +20,7 @@
 					{{ with .Site.GetPage "section" "blog" }}
 						{{ range first 3 .Pages.ByPublishDate.Reverse }}
 							<div class="col-md-4">
-								<div class="card shadow rounded bg-white">
+								<div class="card shadow rounded bg-white" style="min-height: 483px;">
 									<a href="{{ .RelPermalink }}">
 										<img src="{{ .Params.timage }}" class="card-img-top" alt="...">
 									</a>
