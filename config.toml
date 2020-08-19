@@ -25,10 +25,10 @@ enableRobotsTXT = true
     weight = 200
     url = "/about/"
 
-[[menu.main]]
-    name = "Projects"
-    weight = 201
-    url = "/projects/"
+#[[menu.main]]
+#    name = "Projects"
+#    weight = 201
+#    url = "/projects/"
 
 [[menu.main]]
     name = "Uses"
